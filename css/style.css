@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+body section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body section img {
+  max-width: 100%;
+}
+body .scroll-top .toTop {
+  color: white;
+  right: 32px;
+  font-size: 26px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  bottom: 16px;
+  transition: all 0.3s linear;
+  opacity: 0;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+}
+body .scroll-top .active {
+  visibility: visible;
+  opacity: 1;
+}/*# sourceMappingURL=style.css.map */
